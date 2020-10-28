@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Oct, 2020, 10:25:40 AM
+    Author     : SUSHANT
+*/
+
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #57D61C;
+}
+
+.logo{
+    position: absolute;
+width: 1350px;
+height: 250px;
+left: 45px;
+
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.log_img{
+    position:absolute;
+    width:390px;
+    height:250px;
+    left:480px;
+    background: url(Logo.png);
+    
+}
+
+.nav{
+    position: absolute;
+width: 1350px;
+height: 58px;
+left: 45px;
+top: 255px;
+
+background: #FFFEFE;
+border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+  margin-top: 2.5px;
+  padding:0px;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+li {
+    display: inline-block;
+    
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none ;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+li a:hover {
+  background-color: #57D61C;
+}
+
+.content{
+    position: absolute;
+width: 1190px;
+height: 850px;
+left: 125px;
+top: 318px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+#intro{
+    position: absolute;
+width: 1100px;
+height: 520px;
+left: 45px;
+top: 36px;
+
+background: url(bg.jpg);
+border: 5px solid #57D61C;
+border-radius: 20px;
+}
+
+.outer{
+    position: absolute;
+    width: 900px;
+    height: 420px;
+    left: 100px;
+    top: 50px;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Caladea'
+}
+
+
+
+#testimonials{
+    position: absolute;
+width: 1100px;
+height: 240px;
+left: 45px;
+top: 580px;
+
+background: #FFFFFF;
+border: 5px solid #57D61C;
+
+border-radius: 20px;
+}
+
+#photo1{
+    
+    position: absolute;
+    
+width: 158px;
+height: 204px;
+left: 26px;
+top: 13px;
+background: url(photo1.jpg);
+border-radius: 10px 0px 10px 10px;
+border: 5px solid #57D61C;
+}
+
+#testi1{
+    position: absolute;
+width: 330px;
+height: 150px;
+left: 194px;
+top: 13px;
+
+background: #C4C4C4;
+border-radius: 0px 10px 10px 0px;
+}
+
+#testi1 .s{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    text-align: left;
+}
+#testi1 .b{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    text-align: right;
+}
+
+#photo2{
+    position: absolute;
+width: 158px;
+height: 204px;
+left: 906px;
+top: 13px;
+
+background: url(photo2.jpg);
+border-radius: 0px 10px 10px 10px;
+border: 5px solid #57D61C;
+}
+
+#testi2{
+    position: absolute;
+width: 330px;
+height: 150px;
+left: 576px;
+top: 13px;
+
+background: #C4C4C4;
+border-radius: 10px 0px 0px 10px;
+}
+
+#testi2 .s{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    text-align: right;
+}
+#testi2 .b{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    text-align: left
+}
+
+footer{
+    position: absolute;
+width: 1350px;
+height: 110px;
+left: 45px;
+top: 1174px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+#web{
+    position: absolute;
+width: 580px;
+height: 85px;
+left: 30px;
+top: 12.5px;
+
+
+}
+
+.part{
+    position: absolute;
+width: 85px;
+height: 0px;
+left: 632.5px;
+top: 52.5px;
+
+background: #57D61C;
+border: 2px solid #57D61C;
+transform: rotate(90deg)
+}
+
+#contact{
+    position: absolute;
+width: 273px;
+height: 85px;
+left: 698px;
+top: 12.5px;
+
+
+}
+
+#address{
+    position: absolute;
+width: 273px;
+height: 85px;
+left: 1049px;
+top: 12.5px;
+
+
+}
+
+footer p {
+    margin-top:5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding:5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    color: black;
+}
