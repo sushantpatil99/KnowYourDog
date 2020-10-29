@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Caladea' rel='stylesheet'>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo"><div class="log_img"><p></p></div></div>
+            <div class="nav">
+                <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#">Health Issues</a></li>
+  <li><a href="booking.html">Book an Appointment</a></li>
+  
+</ul>
+            </div>
+        </header>
+        <div class="appointment">
+            <form name="regform" id="rform" method="post">
+      
+                <h1>Appointment details</h1>
+                
+                <fieldset>
+                  <legend><span class="number">1</span>Your basic info</legend>
+                  <label for="name">Name:</label>
+                  <input type="text" id="Name" name="Name"><span id="name"></span>
+                  
+                  <label for="mail">Email:</label>
+                  <input type="text" id="Email" name="Email"><span id="email"></span>
+                  
+                  <label for="phone">Phone Number:</label>
+                  <input type="text" id="Mobile" name="Mobile"><span id="mobile"></span>
+
+                  <label for="password">Password:</label>
+                  <input type="text" id="Password" name="Password"><span id="password"></span>
+                  
+                </fieldset>
+                
+                <fieldset>
+                  <legend><span class="number">2</span>Your pet details</legend>
+                  <label for="pet_breed">Pet breed:</label>
+                  <input type="text" id="Breed"  name="Breed"><span id="breed"></span>
+                  
+                  <label for="age">Age:</label>
+                  <input type="text" id="age"  name="age"><span id="age1"></span>
+                  
+                  <label>Gender</label>
+                  <input type="radio" id="male" value="Male" name="gender"><label for="male" class="light">Male</label><br>
+                  <input type="radio" id="female" value="Female" name="gender"><label for="female" class="light">Female</label><span id="gender"></span><br>
+                </fieldset>
+                
+                <fieldset>
+                  <legend><span class="number">3</span>Appointment details</legend>
+                <label for="doctor">Doctor:</label>
+                <select id="doctor" name="doctor">
+                    <option value="none" selected disabled hidden style='display: none' >Select doctor</option>
+                    <option value="thane">Dr. Kush Aswani, The Pet Hub, Thane(W)</option>
+                    <option value="mulund">Dr. Ravi Taneja, Ultimate pet care, Mulund(W)</option>
+                    <option value="dadar">Dr. Teena Agarwal, Pet Plus, Dadar(E)</option>
+                    <option value="borivali">Dr. Riya Chaturvedi, The Paw Palace, Borivali(E)</option>
+                    <option value="jogeshwari">Dr. Mukesh Rathod, Pet paradise, Jogeshwari(W)</option>
+                   </select><span id="Doctor"></span>
+                
+                  <label>Date:</label>
+                  <input type="Date" id="date" name="date"><span id="Date"></span>
+                       </fieldset>
+                
+                <input type="button" value="Book Now" onclick="validateForm()"><span id="Complete"></span>
+              </form>
+              
+        </div>
+        <footer id="book_footer">
+            <div id="web" style="text-align: center">
+                <p style="font-size: 17px; font-weight: 600; padding-bottom: 5px">Know Your Dog</p>
+                <p>It is an informational website which promotes health awareness regarding dogs and provides a facility to book a health checkup appointment with the best doctor in town.</p>
+            </div>
+            <div class="part"></div>
+            <div id="contact" style="text-align: left">
+                <p style="font-size: 17px; font-weight: 600">Contact Us</p>
+                <p>+91 90000 00000</p>
+                <p>support@knowyourdog.com</p>
+            </div>
+            <div id="address" style="text-align: right">
+                <p style="font-size: 17px; font-weight: 600">Address</p>
+                <p>Jogeshwari- East,</p>
+                <p>Mumbai-400060,</p>
+                <p>Maharashtra, India.</p>
+            </div>
+        </footer>
+    </body>
+</html>
