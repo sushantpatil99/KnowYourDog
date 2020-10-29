@@ -200,6 +200,17 @@ border-radius: 10px 0px 0px 10px;
 }
 
 footer{
+    position: absolute;
+width: 1350px;
+height: 110px;
+left: 45px;
+top: 1174px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+#book_footer{
     
     position: absolute;
 width: 1350px;
